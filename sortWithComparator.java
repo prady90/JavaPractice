@@ -2,12 +2,12 @@
 
 import java.util.*;
 
-class Student {
+class StudentType {
     private int id;
     private String fname;
     private double cgpa;
 
-    public Student(int id, String fname, double cgpa) {
+    public StudentType(int id, String fname, double cgpa) {
         super();
         this.id = id;
         this.fname = fname;
@@ -27,9 +27,9 @@ class Student {
     }
 }
 
-class sortStudentlist implements Comparator<Student> {
+class sortStudentlist implements Comparator<StudentType> {
 
-    public int compare(Student s1, Student s2) {
+    public int compare(StudentType s1, StudentType s2) {
         if( Double.compare(s2.getCgpa(), s1.getCgpa()) !=0){
             return Double.compare(s2.getCgpa(), s1.getCgpa());
         }else if(Double.compare(s2.getCgpa(), s1.getCgpa())==0 && s1.getFname().compareTo(s2.getFname())!=0){
@@ -43,8 +43,6 @@ class sortStudentlist implements Comparator<Student> {
 
 }
 
-
-
 // Complete the code
 public class sortWithComparator {
 
@@ -53,13 +51,13 @@ public class sortWithComparator {
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
 
-        List<Student> studentList = new ArrayList<Student>();
+        List<StudentType> studentList = new ArrayList<StudentType>();
         while (testCases > 0) {
             int id = in.nextInt();
             String fname = in.next();
             double cgpa = in.nextDouble();
 
-            Student st = new Student(id, fname, cgpa);
+            StudentType st = new StudentType(id, fname, cgpa);
             studentList.add(st);
 
             testCases--;
@@ -72,7 +70,7 @@ public class sortWithComparator {
          Collections.sort(studentList,new sortStudentlist());
         
 
-        for (Student st : studentList) {
+        for (StudentType st : studentList) {
             System.out.println(st.getFname());
 
         }

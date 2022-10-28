@@ -33,5 +33,6 @@ public class instanceofPractice{
          Object element = it.next();
          System.out.println((String)element);
       }
+      sc.close();
    }
 }

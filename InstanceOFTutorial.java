@@ -28,7 +28,7 @@ Sample Output
 import java.util.*;
 
 
-class Student{}
+class Studnt{}
 class Rockstar{   }
 class Hacker{}
 
@@ -39,7 +39,7 @@ public class InstanceOFTutorial{
       int a = 0,b = 0,c = 0;
       for(int i = 0; i < mylist.size(); i++){
          Object element=mylist.get(i);
-         if(Student.class.isInstance(element))
+         if(Studnt.class.isInstance(element))
             a++;
          if(Rockstar.class.isInstance(element))
             b++;
@@ -50,13 +50,16 @@ public class InstanceOFTutorial{
       return ret;
    }
 
+   /**
+    * @param args
+    */
    public static void main(String []args){
-      ArrayList mylist = new ArrayList();
+      ArrayList mylist = new ArrayList<>();
       Scanner sc = new Scanner(System.in);
       int t = sc.nextInt();
       for(int i=0; i<t; i++){
          String s=sc.next();
-         if(s.equals("Student"))mylist.add(new Student());
+         if(s.equals("Studnt"))mylist.add(new Studnt());
          if(s.equals("Rockstar"))mylist.add(new Rockstar());
          if(s.equals("Hacker"))mylist.add(new Hacker());
       }
