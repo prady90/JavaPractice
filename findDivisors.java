@@ -1,5 +1,5 @@
 
-class Test
+class findDivisors
 {
     // method to print the divisors
     static void printDivisors(int n)

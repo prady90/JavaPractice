@@ -15,7 +15,7 @@ public class instanceofPractice{
 }
 @SuppressWarnings({ "unchecked" })
    public static void main(String []args){
-      ArrayList mylist = new ArrayList();
+      ArrayList mylist = new ArrayList<>();
       Scanner sc = new Scanner(System.in);
       int n = sc.nextInt();
       int m = sc.nextInt();
