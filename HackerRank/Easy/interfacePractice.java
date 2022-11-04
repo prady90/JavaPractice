@@ -1,3 +1,4 @@
+package HackerRank.Easy;
 import java.util.*;
 interface AdvancedArithmetic{
   int divisor_sum(int n);

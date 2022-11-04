@@ -1,3 +1,4 @@
+package HackerRank.Easy;
 import java.util.*;
 
 public class canWin {
