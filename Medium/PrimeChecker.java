@@ -37,18 +37,20 @@ public class PrimeChecker {
         {
             throw new Exception("Overloading not allowed");
         }
+        br.close();
         }
         catch(Exception e)
         {
             System.out.println(e);
         }
+        
     }
     }
 
 
 class Prime{
 
-    static void checkPrime(int...arr) {
+    void checkPrime(int...arr) {
         for (int i = 0; i < arr.length; i++) {
          boolean flag = false;
          for (int j = 2; j <= Math.sqrt(arr[i]); j++) {
