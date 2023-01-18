@@ -1,0 +1,16 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0-javadoc.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0-sources.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0-tests.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0-test-sources.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-math3-3.6.1-bin\\commons-math3-3.6.1\\commons-math3-3.6.1-javadoc.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-math3-3.6.1-bin\\commons-math3-3.6.1\\commons-math3-3.6.1.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-math3-3.6.1-bin\\commons-math3-3.6.1\\commons-math3-3.6.1-tools.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-math3-3.6.1-bin\\commons-math3-3.6.1\\commons-math3-3.6.1-tests.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-math3-3.6.1-bin\\commons-math3-3.6.1\\commons-math3-3.6.1-sources.jar",
+        "c:\\Users\\Prady\\Downloads\\commons-math3-3.6.1-bin\\commons-math3-3.6.1\\commons-math3-3.6.1-test-sources.jar"
+    ]
+}
